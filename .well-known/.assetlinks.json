@@ -1,0 +1,8 @@
+[{
+      "relation": ["delegate_permission/common.handle_all_urls"],
+      "target": {
+        "namespace": "android_app",
+        "package_name": "com.elhadry.khamenalmathal",
+        "sha256_cert_fingerprints": ["F0:A5:BE:00:90:06:04:CC:93:52:35:AD:3E:AF:1F:24:BC:88:D6:9D:86:C3:D4:AB:99:D0:2C:65:1C:07:E8:39"]
+      }
+    }]
