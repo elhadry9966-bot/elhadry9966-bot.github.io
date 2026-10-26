@@ -50,7 +50,7 @@ h1{margin:0;text-align:center;font-size:46px;line-height:1.2}h1 span{color:var(-
 .ttl{display:flex;justify-content:space-between;align-items:baseline;margin-top:6px}.ttl b{font-size:26px}.ttl span{color:var(--mut)}
 .clue{background:linear-gradient(160deg,rgba(255,255,255,.09),rgba(255,255,255,.03));border:1px solid var(--line);border-radius:28px;padding:18px 14px 22px;text-align:center;position:relative}
 .clue .chip{display:inline-block;color:var(--ind);margin-bottom:6px}
-#pic,#qpic{font-size:54px;line-height:1.25;letter-spacing:6px;min-height:100px;display:flex;align-items:center;justify-content:center;word-break:break-word}
+#pic,#qpic{flex-wrap:wrap;font-size:54px;line-height:1.25;letter-spacing:6px;min-height:100px;display:flex;align-items:center;justify-content:center;word-break:break-word}
 #qt{font-size:19px;font-weight:700;margin-top:10px}#qs{color:var(--mut);font-size:14px;margin-top:6px;min-height:20px}
 .sec2{display:flex;justify-content:space-between;align-items:center;margin-top:4px}.sec2 b{font-size:20px}.sec2 span{color:var(--mut);font-size:13px}
 .opts{display:grid;gap:12px}
@@ -102,6 +102,7 @@ h1{margin:0;text-align:center;font-size:46px;line-height:1.2}h1 span{color:var(-
 .sh2{font-size:18px;font-weight:700;margin:6px 0 0}
 #qtimer{min-width:74px;text-align:center}#qtimer.low{color:var(--no);animation:bump .5s infinite}
 @media (prefers-reduced-motion:reduce){#fx{display:none}}
+@media (max-width:370px){#pic,#qpic{font-size:42px;letter-spacing:2px}}
 </style>
 </head>
 <body>
